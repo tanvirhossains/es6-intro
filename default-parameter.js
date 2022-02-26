@@ -4,7 +4,7 @@ function add(num1, num2 = 34) {     //if num2's value is don't have then this va
 
 
     // num2 = num2 || 0;             //option 2 
-    /*  if(num2 == undefined){     //option 1 
+    /*  if(num2 == undefined){     //option 1 if i don't give any number then
          num2 = 0;
      } */
     console.log(num1, num2)

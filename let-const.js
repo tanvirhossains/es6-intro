@@ -17,10 +17,13 @@ numbers[1] = 333;
 let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i];
-    console.log(number);
+    // console.log(number);
     sum = sum + number;
+    console.log(sum)
 }
 
 const student = { roll: 101, name: 'mofij', job: 'intern' };
 student.name = 'MOfazzol';// to change the name use this
+student.roll = 'asad'
+console.log(student)
 // student = { name: 'mofazzol' };

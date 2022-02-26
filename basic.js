@@ -1,3 +1,4 @@
+// module 31 -1
 // variable
 var deposit = 400;
 // condition
@@ -27,8 +28,10 @@ else {
 const numbers = [45, 6587, 124, 45, 1, 365];
 const numberCount = numbers.length;
 numbers.pop();
+
 numbers.push(111);
-numbers[2] = 555;
+numbers[2] = 555; //to change the 2 number array
+console.log(numbers)
 // check whether 222 included in the array
 if (numbers.indexOf(222) != -1) {
 

@@ -1,4 +1,4 @@
-// module 31 -6
+// module 31 -6 (arroy function)
 
 function add(num1, num2){
     return num1 + num2

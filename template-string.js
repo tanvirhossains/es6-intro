@@ -1,4 +1,4 @@
-// module 31-5
+// module 31-5 (template string multiple line string, dynamic string)
 
 
 const priya = 'Asif Akbar';
@@ -25,9 +25,12 @@ const friends = ['abul', 'babul', 'kabul', 'mabul'];
 const count = 5;
 
 const old = '<h3 class="friend-name">Friend-4<p>Libero, ducimus?</p>'
-const old1 = '<h3 class="friend-name">Friend-'+ count +'Libero, ducimus?</p>'
-const old2 = `<h3 class="friend-name">Friend-${count} Libero, ducimus?</p>`  //this is benefit of using 
+const old1 = '<h3 class="friend-name">Friend-'+ friends.length +'Libero, ducimus?</p>'
+// const old10 = <h3 class="friend-name">Friend- ${friends.length} Libero, ducimus?</p>'  //won't work
 
+
+const old2 = `<h3 class="friend-name">Friend-${count} Libero, ducimus?</p>`  //this is benefit of using 
+console.log('this is old1:=', old1)
 
 const old3 = `<h3 class="friend-name">Friend-${friends.length} Libero, ducimus?</p>` 
 

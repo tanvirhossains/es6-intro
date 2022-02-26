@@ -1,4 +1,4 @@
-// module 31-7
+// module 31-7  (big arrow)
 
 const add = (num1, num2) => num1 + num2;
 const sum = add(11, 33);
